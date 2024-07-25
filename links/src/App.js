@@ -1,9 +1,9 @@
 // src/App.js
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsConditions from "./components/TermsConditions";
-import Verification from "./components/verification";
+import Verification from "./components/Verification";
 import "./App.css"; // Assuming you have a CSS file for styles
 
 const App = () => {
