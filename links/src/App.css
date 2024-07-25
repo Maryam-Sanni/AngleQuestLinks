@@ -1,0 +1,63 @@
+.App {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #206c00;
+}
+
+.content {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.accept-button,
+.decline-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accept-button {
+  background-color: coral;
+  color: #fff;
+}
+
+.decline-button {
+  background-color: transparent;
+  border: 1px solid green;
+  color: green;
+}
+
+.email-link {
+  color: coral;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contact-button {
+  background: none;
+  border: none;
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
