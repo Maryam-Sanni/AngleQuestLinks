@@ -1,6 +1,5 @@
-// src/App.js
 import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import TermsConditions from "./components/TermsConditions";
 import Verification from "./components/verification";
@@ -11,6 +10,7 @@ const App = () => {
     <Router>
       <div className="App">
         <Routes>
+        <Route path="/" element={<Navigate to="/terms-conditions" />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-conditions" element={<TermsConditions />} />
           <Route path="/verification" element={<Verification />} />
